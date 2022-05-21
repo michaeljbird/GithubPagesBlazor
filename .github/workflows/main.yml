@@ -33,9 +33,8 @@ jobs:
 
       # Publish APp
       - name: Publish Blazor App
-        run: dotnet publish GithubPagesBlazor.csproj -c Release -o release --nologo
-        
-        
+        run: dotnet publish -c Release -o release --nologo
+
       - name: Commit wwwroot to GitHub Pages
         uses: JamesIves/github-pages-deploy-action@3.7.1
         with:
