@@ -33,7 +33,7 @@ jobs:
 
       # Publish APp
       - name: Publish Blazor App
-        run: dotnet publish GitHubPagesBlazor.csproj -c Release -o release --nologo
+        run: dotnet publish GithubPagesBlazor.csproj -c Release -o release --nologo
         
         
       - name: Commit wwwroot to GitHub Pages
