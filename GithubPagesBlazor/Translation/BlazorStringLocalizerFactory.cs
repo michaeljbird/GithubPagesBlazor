@@ -2,10 +2,13 @@
 using Microsoft.Extensions.Localization;
 using Microsoft.Extensions.FileProviders;
 using Microsoft.Extensions.Options;
+using Microsoft.JSInterop;
+using System.Globalization;
+using System.Reflection;
 
 namespace GithubPagesBlazor.Translation
 {
-    public class BlazorStringLocalizerFactory : IStringLocalizerFactory
+    public class BlazorStringLocalizerFactory : IStringLocalizerFactoryFromCulture
     {
         private string ResourcesPath { get; }
 
@@ -22,7 +25,18 @@ namespace GithubPagesBlazor.Translation
 
         public IStringLocalizer Create(string baseName, string location)
         {
-            throw new NotImplementedException();
+            var resources = new EmbeddedFileProvider(Assembly.GetExecutingAssembly());
+
+            return new BlazorStringLocalizer(resources, location, baseName);
+        }
+
+        public IStringLocalizer Create()
+        {
+            var cultureInfo = CultureInfo.CurrentUICulture;
+            var cultureName = cultureInfo.TwoLetterISOLanguageName;
+            var resources = new EmbeddedFileProvider(Assembly.GetExecutingAssembly());
+
+            return new BlazorStringLocalizer(resources, ResourcesPath, cultureName);
         }
     }
 }
