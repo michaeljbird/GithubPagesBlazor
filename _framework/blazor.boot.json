@@ -7,7 +7,7 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "GithubPagesBlazor.dll": "sha256-0a1WGPrTjj0OoWPqwDlxNQVRAtiE4zAN1q96xILSSQ0=",
+      "GithubPagesBlazor.dll": "sha256-IS0iW\/cq\/pQza7i5GpEeMbcBSa4xV+xkadzNBp0clDo=",
       "Microsoft.AspNetCore.Components.dll": "sha256-UfcQ0yjxpaBQrurItEhD5Z957Z3BEJhb1H98D1WmqdQ=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-lLeAAdXYR99eecPiAQOdsoHhleI8Ws+b2Jh\/3KOESAE=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-qLRev3iQ8+ob2712HwRtFUJchqBHMqm+gr9bbFz7t14=",
@@ -16,7 +16,7 @@
       "Microsoft.Extensions.Configuration.Json.dll": "sha256-fF3xaP+hT6R3GYUctLIY1ixaXQ8mrHzwWHHf2dKfueU=",
       "Microsoft.Extensions.DependencyInjection.Abstractions.dll": "sha256-IbbbNFM8J\/XlBzYMK1pQY8\/uQ+R2o7uNnO2uDlrcYOY=",
       "Microsoft.Extensions.DependencyInjection.dll": "sha256-pYDNELbgbO60zgvgH5SP8004wkA0+o\/KlQxFXl\/uS2A=",
-      "Microsoft.Extensions.FileProviders.Abstractions.dll": "sha256-P1aWamx5W20PrV9XRJelkKTd9oOkeQQf7f6aJPVQ8Uc=",
+      "Microsoft.Extensions.FileProviders.Abstractions.dll": "sha256-GTYIYo8TWTJPjSOZ\/hzQHWcr42AqUSSzKEp8zbz2ZP4=",
       "Microsoft.Extensions.FileProviders.Embedded.dll": "sha256-9p\/7J7yB5XtKnYVGn7mSwfDljl4b45KjNGSW7+9k9Dw=",
       "Microsoft.Extensions.Localization.Abstractions.dll": "sha256-iWyiOMgRvXZUch\/8rknDGbCc9444R3mFKIPQPE84TXU=",
       "Microsoft.Extensions.Localization.dll": "sha256-8\/yYB4eK92AuRM3jaqjYHYlJJ+uvNNJyOV4VnXAVWnU=",
@@ -40,7 +40,7 @@
       "System.Net.Http.Json.dll": "sha256-DH2rqkDcfkFR+kbj84lINl95l6Y6dTe7u9KgeE5Sozs=",
       "System.Net.Primitives.dll": "sha256-RXi7lyHktWTqvCFnadl0IyA0rM8JkZbA8\/9wLG7s1pk=",
       "System.ObjectModel.dll": "sha256-kr9+VnAmcG0Ali\/3p+8vB\/pE0FZZ95LYwES24+MkPBk=",
-      "System.Private.CoreLib.dll": "sha256-RsKVoN26cRbNr6PpGF0eCEfISkcsyx6bq8m4c\/M9dQw=",
+      "System.Private.CoreLib.dll": "sha256-CbypHaFzkkxfaGLuONyUfxvnF66d6PjjvdFbC4F4kWw=",
       "System.Private.Runtime.InteropServices.JavaScript.dll": "sha256-TUQUMCEyuHYnkmmdXzBZD\/1x+Q7xVmRqV6jSfcrpXRo=",
       "System.Private.Uri.dll": "sha256-9DCSiVTSdGwmeu\/fg\/7ChVYMYMfGIaWcbplfRFJJT5o=",
       "System.Private.Xml.dll": "sha256-qFSGYiyat2gWiTtJJVvo3o57uWZ2EG67ISfEi5zylLE=",

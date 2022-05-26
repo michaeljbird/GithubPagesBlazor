@@ -62,3 +62,7 @@ a, .btn-link {
     .blazor-error-boundary::after {
         content: "An error has occurred."
     }
+
+select.form-control {
+    -webkit-appearance: menulist;
+}
