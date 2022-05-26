@@ -34,7 +34,8 @@ namespace GithubPagesBlazor.Translation
             {
                 var stringMap = LoadStringMap();
 
-                return new LocalizedString(name, stringMap[name]);
+                return stringMap.ContainsKey(name) ? new LocalizedString(name, stringMap[name]) : new LocalizedString(name, name);
+
             }
         }
 
@@ -50,20 +51,7 @@ namespace GithubPagesBlazor.Translation
 
         private Dictionary<string, string> LoadStringMap()
         {
-            var cultureInfo = CultureInfo.CurrentUICulture;
-
-            var cultureName = cultureInfo.TwoLetterISOLanguageName;
-
-            var fileInfo =
-                FileProvider.GetFileInfo(
-                    Path.Combine(ResourcesPath, $"{cultureName}.json"));
-
-            if (!fileInfo.Exists)
-            {
-                fileInfo =
-                    FileProvider.GetFileInfo(
-                        Path.Combine(ResourcesPath, $"{Name}.json"));
-            }
+            var fileInfo = FileProvider.GetFileInfo(Path.Combine(ResourcesPath, $"{Name}.json"));
 
             using var stream = fileInfo.CreateReadStream();
 
