@@ -7,7 +7,7 @@
   "linkerEnabled": true,
   "resources": {
     "assembly": {
-      "GithubPagesBlazor.dll": "sha256-fmdgGOzOYj3FjyrOudQTTqQkjY1coY5HybFohSOAiqc=",
+      "GithubPagesBlazor.dll": "sha256-TKFuss21SPEBtTbGwcbjJz\/xtyoRcoZJKPWzxUNG+EI=",
       "Microsoft.AspNetCore.Components.dll": "sha256-Uyqxu5saU10Go7VC3UcqnpVX2Jjf9L2iRGdW+XXg7HY=",
       "Microsoft.AspNetCore.Components.Web.dll": "sha256-lLeAAdXYR99eecPiAQOdsoHhleI8Ws+b2Jh\/3KOESAE=",
       "Microsoft.AspNetCore.Components.WebAssembly.dll": "sha256-qLRev3iQ8+ob2712HwRtFUJchqBHMqm+gr9bbFz7t14=",
