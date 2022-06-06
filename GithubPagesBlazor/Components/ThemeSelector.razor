@@ -1,0 +1,8 @@
+﻿<div class=form-group>
+    <select @onchange="ChangeTheme" class="form-control">
+        @foreach(string theme in themeList)
+            {
+                <option selected="@IsSelectedTheme(theme)" value="@theme">@theme</option>
+            }
+    </select>
+</div>
