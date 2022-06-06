@@ -9,7 +9,7 @@ namespace GithubPagesBlazor.Components
         [Inject] IJSRuntime JSRuntime { get; set; }
 
         private IJSObjectReference? module;
-        private string _theme = "light";
+        private string _theme = "Light";
         private List<string> themeList = new List<string>() { "Light", "Dark" };
 
         private bool IsSelectedTheme(string theme)
